@@ -4,11 +4,11 @@ h1 {
 }
 
 g[class='note'] {
-  color: red;
+  color: fuchsia;
 }
 
 .highlighted {
-  fill: blue
+  fill: aqua
 }
 
 #controls {
