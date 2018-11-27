@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Mii Channel Theme - Gregor Long</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Music Analytics Project">
+    <meta name="author" content="Gregor Long">
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <script src="js/verovio-toolkit.js"></script>
+    <script src="js/utils.js"></script>
+  </head>
+
+  <body>
+
+    <div id="content">
+      <!-- ADD YOUR HTML CONTENT HERE! -->
+      <h1>Gregor Long Music Analytics Project</h1>
+      <h2>Compisition Metadata</h2>
+      <p id="meta"></p>
+
+    </div>
+
+    <!-- **** DO NO EDIT BELOW THIS LINE **** -->
+    <!-- * **** **** **** **** **** **** **** -->
+	<div><h2>Score</h2></div>
+	<div id="controls">
+	<button id="prev">&lt;</button>
+	<button id="next">&gt;</button>
+	</div>
+    <div id="score">
+      <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
+    </div>
+	<div id="analysis">
+		<h2>Analysis</h2>
+		<h3>Music21</h3>
+		<img src="Histograms/MiiChannelHistogram.png" alt="MiiChannel Music21 Histogram" width="400" height="400">
+		<img src="Histograms/MiiChannelPianoRollpng.png" alt="MiiChannel Music21 Piano Roll" width="600" height="360">
+		<p>
+		<h3>jSymbolic</h3>
+		<table>
+			<thead><tr>
+				<th>Number_of_Pitches</th>
+				<th>Number_of_Pitch_Classes</th>
+				<th>Range</th>
+				<th>Mean_Pitch</th>
+				<th>Mean_Pitch_Class</th>
+				<th>Most_Common_Pitch</th>
+				<th>Most_Common_Pitch_Class</th>
+				<th>Prevalence_of_Most_Common_Pitch</th>
+				<th>Strong_Tonal_Centres</th>
+				<th>Mean_Melodic_Interval</th>
+				<th>Chromatic_Motion</th>
+				</tr></thead>
+				<tbody><tr>
+				<td align="left">15</td>
+				<td align="left">8</td>
+				<td align="left">36</td>
+				<td align="left">78</td>
+				<td align="left">5.473</td>
+				<td align="left">84</td>
+				<td align="left">6</td>
+				<td align="left">0.142</td>
+				<td align="left">2</td>
+				<td align="left">5</td>
+				<td align="left">0.07483</td>
+				</tr></tbody>
+		</table>
+		<table>
+			<thead><tr>
+				<th>Prevalence_of_Most_Common_Pitch_Class</th>
+				<th>Interval_Between_Most_Prevalent_Pitches</th>
+				<th>Pitch_Variability</th>
+				</tr></thead>
+				<tbody><tr>
+				<td align="left">0.213</td>
+				<td align="left">7</td>
+				<td align="left">13.12</td>
+				</tr></tbody>
+		</table>
+		</p>
+	</div>
+    <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
+   <script src="js/smbmei.js"></script>
+    <script>
+      var xhr = new XMLHttpRequest()
+      xhr.open('GET', 'data/MiiChannel.mei') // <-- change this to the right file
+      xhr.send(null)
+
+      /* Deal with the response */
+      xhr.onreadystatechange = function () {
+        var DONE = 4
+        var OK = 200
+        if (xhr.readyState === DONE) {
+          if (xhr.status === OK) {
+            var parser = new DOMParser()
+            var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
+            /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
+           */
+			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='t-3']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='t-3']").textContent + "</p></a>"
+			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='e-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='e-2']").textContent + "</p></a>"
+			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='c-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='c-2']").textContent + "</p></a>"
+			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='userestrict']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='userestrict']").textContent + "</p></a>"
+           /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
+            */
+			document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='t-2']").textContent + "</p>"
+          }
+        }
+      }
+    </script>
+  </body>
+
+</html>
