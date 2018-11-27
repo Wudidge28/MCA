@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>C:\Users\user\Documents\MUSIC\MIDIS (for jSymbolic)\Lavender Town.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>1.5E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>8E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>3.6E1</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>7.8E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>5.473E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>8.4E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>6E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Pitch</name>
+			<v>1.42E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Pitch Class</name>
+			<v>2.13E-1</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>1.312E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Mean Melodic Interval</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Chromatic Motion</name>
+			<v>7.483E-2</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>4.639E-1</v>
+			<v>1.538E-1</v>
+			<v>7.757E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.048E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
