@@ -3,13 +3,33 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-        <fileDesc>
+    <fileDesc>
             <titleStmt>
                 <title>Wii Channel</title>
-                <!-- Changed Duration from 8 to 16 across all notes and rests-->
+                <arranger>Kazumi Totaka/ Gregor Long</arranger>
+                <author>Gregor Long</author>
+                <date>2018</date>
+                <composer>Kazumi Totaka</composer>
             </titleStmt>
-            <pubStmt></pubStmt>
-        </fileDesc>
+            <editionStmt>
+              <title>Mii Channel </title>
+              <date>2006</date>
+              <pubPlace>Tokyo</pubPlace>
+            </editionStmt>
+            <extent unit=”Kbytes”>35</extent>
+            <pubStmt>
+            <pubPlace> University of Glasgow </pubPlace>
+            <availability> Licensed under Creative Commons</availability>
+          </pubStmt>
+          <seriesStmt>
+           <title>Music Curation and Analytics Encoded Music Collection</title>
+           <editor>Gregor Long</editor>
+           <identifier>MCA-2018</identifier>
+           <contents>
+          <p>Lavander Town Theme, Mii Channel, Final Fantasy VII Victory Fanfare</p>
+           </contents>
+          </seriesStmt>
+      </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001210622270">
             <appInfo xml:id="appinfo-0000001640023380">
                 <application xml:id="application-0000001435283898" isodate="2018-11-20T15:04:32" version="2.0.0-dev-e42e3a6">
