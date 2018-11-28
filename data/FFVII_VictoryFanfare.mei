@@ -3,12 +3,33 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title>FFVII Victory Fanfare</title>
-            </titleStmt>
-            <pubStmt></pubStmt>
-        </fileDesc>
+    <fileDesc>
+        <titleStmt>
+            <title>Final Fantasy VII Victory Fanfre</title>
+            <arranger>Nobuo Uematsu/ Gregor Long</arranger>
+            <author>Gregor Long</author>
+            <date>2018</date>
+            <composer>Nobuo Uematsu</composer>
+        </titleStmt>
+        <editionStmt>
+          <title>Victory Fanfare</title>
+          <date>1997</date>
+          <pubPlace>Tokyo</pubPlace>
+        </editionStmt>
+        <extent unit=”Kbytes”>62</extent>
+        <pubStmt>
+        <pubPlace> University of Glasgow </pubPlace>
+        <availability> Licensed under Creative Commons</availability>
+      </pubStmt>
+      <seriesStmt>
+       <title>Music Curation and Analytics Encoded Music Collection</title>
+       <editor>Gregor Long</editor>
+       <identifier>MCA-2018</identifier>
+       <contents>
+      <p>Lavander Town Theme, Mii Channel, Final Fantasy VII Victory Fanfare</p>
+       </contents>
+      </seriesStmt>
+  </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000970267991">
             <appInfo xml:id="appinfo-0000001123988824">
                 <application xml:id="application-0000000010046812" isodate="2018-11-24T22:36:20" version="2.0.0-dev-e42e3a6">
