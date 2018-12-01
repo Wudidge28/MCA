@@ -3,33 +3,81 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-    <fileDesc>
-        <titleStmt>
-            <title>Final Fantasy VII Victory Fanfre</title>
-            <arranger>Nobuo Uematsu/ Gregor Long</arranger>
-            <author>Gregor Long</author>
-            <date>2018</date>
-            <composer>Nobuo Uematsu</composer>
-        </titleStmt>
-        <editionStmt>
-          <title>Victory Fanfare</title>
-          <date>1997</date>
-          <pubPlace>Tokyo</pubPlace>
-        </editionStmt>
-        <extent unit=”Kbytes”>62</extent>
-        <pubStmt>
-        <pubPlace> University of Glasgow </pubPlace>
-        <availability> Licensed under Creative Commons</availability>
-      </pubStmt>
-      <seriesStmt>
-       <title>Music Curation and Analytics Encoded Music Collection</title>
-       <editor>Gregor Long</editor>
-       <identifier>MCA-2018</identifier>
-       <contents>
-      <p>Lavander Town Theme, Mii Channel, Final Fantasy VII Victory Fanfare</p>
-       </contents>
-      </seriesStmt>
-  </fileDesc>
+    <fileDesc xml:id="fvii-fd">
+            <titleStmt xml:id="fd-ts">
+                <title xml:id="t-1">Final Fantasy VII Victory Fanfare</title>
+                <title xml:id="t-2" type="sub-title">
+                    <identifier> Transcription of the Victory Fanfre Tehem from Final Fantasy VII</identifier>
+                </title>
+                <composer xml:id="c-1">Nobuo Uematsu</composer>
+                <respStmt>
+                    <resp>Transcribed for Music Analytics Project</resp>
+                    <persName xml:id="resp-1">Gregor Long</persName>
+                    <corpName>University of Glasgow DMIS</corpName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition xml:id="edition">Derivative from MuseScore transcription by AvgLink</edition>
+                <respStmt>
+                    <resp xml:id="resp-2">Gregor Long crafting a slightly edited replica of AvgLink's MUseScore Transcription</resp>
+                    <persName>Gregor Long</persName>
+                </respStmt>
+            </editionStmt>
+            <extent xml:id="extent" unit="kilobytes">26</extent>
+            <pubStmt>
+                <publisher>
+                    <corpName>University of Glasgow</corpName>
+                </publisher>
+                <address>
+                    <addrLine>
+                        <geogName>Glasgow</geogName>
+                    </addrLine>
+                    <addrLine>
+                        <geogName>Scotland</geogName>
+                    </addrLine>
+                    <addrLine>
+                        <geogName>United Kingdom</geogName>
+                    </addrLine>
+                </address>
+                <distributor>Gregor Long</distributor>
+                <availability>
+                    <useRestrict xml:id="restriction" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
+                        Creative Commons Attribution 4.0 International, CC BY-NCSA
+                    </useRestrict>
+                </availability>
+                <respStmt>
+                    <resp>Private - available only via GitHub Repository</resp>
+                    <persName xml:id="resp-3">Gregor Long</persName>
+                    <persName xml:id="resp-4">Tim Duguid</persName>
+                </respStmt>
+            </pubStmt>
+            <seriesStmt>
+                <title>Music Analytics Project - Encoded Music of Video Game Music</title>
+                <editor xml:id="e-1">Gregor Long</editor>
+                <contents>
+                    <contentItem>Final Fnantasy VII Victory Fanfare</contentItem>
+                    <contentItem>Pokemon Lavender Town Theme</contentItem>
+                    <contentItem>Nintendo Wii Channel Theme</contentItem>
+                </contents>
+            </seriesStmt>
+            <notesStmt>
+                <annot>AvgLink transcription was found using the search feature on the MuseScore website</annot>
+            </notesStmt>
+            <sourceDesc>
+                <source>
+                    <titleStmt>
+                        <title xml:id="t-3" authURI="https://www.discogs.com/Nobuo-Uematsu-Final-Fantasy-VII-Original-Sound-Track/release/1830265" authority="VGMdb">
+                            Final Fantasy VII Victory Fanfare</title>
+                        <editor xml:id="e-2" authURI="https://musescore.com/user/28262185/scores/5177153">
+                           AvgLink</editor>
+                        <composer xml:id="c-2" https://www.discogs.com/Nobuo-Uematsu-Final-Fantasy-VII-Original-Sound-Track/release/1830265" authority="discogs">
+                            Nobuo Uematsu</composer>
+                    </titleStmt>
+                    <pubStmt>
+                        <distributor type=" SheetMusic distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                    </pubStmt>
+                </source>
+            </sourceDesc>
         <encodingDesc xml:id="encodingdesc-0000000970267991">
             <appInfo xml:id="appinfo-0000001123988824">
                 <application xml:id="application-0000000010046812" isodate="2018-11-24T22:36:20" version="2.0.0-dev-e42e3a6">
