@@ -1,8 +1,22 @@
 /* Add your own CSS rules here */
+
+body {
+   font-size:80%;
+   font-family: "Rockwell", "Rockwell condensed", sans-serif;
+   letter0soacing:0.15em;
+   background-color: #efefef;}
+
+#page {
+     max-width: 940px;
+     min-width: 720px;
+     margin: 10px auto 10px auto ;
+     padding: 20px;
+     border: 4px double #000;
+     background-color: #ffffff;}
 h1 {
   text-align: center;
   background-color: #00FFFF;
-  border-color: fuschia;
+  border-color: #FF00FF;
   border-width: 10%; 
 }
 
