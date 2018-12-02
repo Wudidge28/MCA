@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/FFVII_VictoryFanfare.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score', 'data/) // <-- CHANGE THIS TO YOUR FILE
