@@ -1,0 +1,30 @@
+!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Utillising Sonic Visualiser to Transcribe and Analyse Music</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Music Analytics 2018">
+    <meta name="author" content="Gregor Long">
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <script src="js/verovio-toolkit.js"></script>
+    <script src="js/utils.js"></script>
+  </head>
+
+  <body>
+
+    <div id="content">
+      <!-- ADD YOUR HTML CONTENT HERE! -->
+      <h1>Gregor Long Music Analytics Project</h1>
+	  <h2>Similarity Comparisons Using music21 </h2>
+    <p>Using a selection of demo tracks provided and then byentering my owj trancscriptions, the following page shows a similarity matrix
+    and heat map comparing the genre of tracks.</p>
+       
+	  <h3>Similarity Matrices</h3>
+		<p>These similarity matrices are based on the trcks found in The Similarity Matrx folder which includes 3 of my tracks as raw csv. files and demo tracks./p>
+    
+    </div>
+
+  </body>
+
+</html>
