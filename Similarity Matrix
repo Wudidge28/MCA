@@ -18,14 +18,23 @@
       <h1>Gregor Long Music Analytics Project</h1>
 	  <h2>Similarity Comparisons Using music21 </h2>
     <p>Using a selection of demo tracks provided and then byentering my owj trancscriptions, the following page shows a similarity matrix
-    and heat map comparing the genre of tracks.</p>
+    and heat map comparing the genre of tracks, followed by a comparison of transcriptions from two different data types.</p>
        
-	  <h3>Similarity Matrices</h3>
+	  <h3>Similarity Matrix</h3>
 		<p>These images are collated from the raw featres the tracks found in The Similarity Matrx folder which includes 3 of my tracks as raw csv. files and demo tracks./p>
 		
 		<img src="SimilarityMatrix.png" alt="Graph showing similarity between genres">
 		<img src="HeatMap.png" alt="Similarity matrix of A and C notes">
 		<img src="HeatMap12.png" alt="Similarity matrix of every note">
+	
+	<h3>Similarity Comparison between Notated and Acoustic Musical Data</h2>
+    <p>IThe two transcriptions below are of my <b><ahref = "https://wudidge28.github.io/MCA/lavandertown><b>Lavender Town</b></a>Track,
+    one from MuseScore and the other which was trancribed from MuseScore into SonicVisualizer and back again.</p>
+    
+        <img src 
+    
+    
+		
     
     </div>
 
