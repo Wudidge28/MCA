@@ -10,11 +10,15 @@ Genre: Video-Game, Chiptune, Ambient, Lounge, Downtempo
 Year: 1995-2008
 Titles:
 •	Pokemon Red/ Blue/ Yellow (1998, Game Freak)
+
 -	Name: Lavender Town
 -	Composer: Junihci Masuda
+
 •	Final Fantasy VII (1997, Square Soft)
+
 -	Name: Victory Fanfare
 -	Composer: Nobuo Uematsu
+
 •	Nintendo Wii Channel (Formally Wii Menu/System Menu) (2007, Nintendo)
 -	Name: Wii Channel Theme
 -	Composer: Kazumi Totaka
@@ -38,4 +42,4 @@ Video Game Music is readily available on Youtube; links to acoustic renditions m
 
 Current Datasets:
 
-As touched upon earlier, websites such as NintenSheet offer a large corpora of music notational and downloads, and others offer vast collections of MIDI downloads such as VGMusic.com. However, I was only able to identify a Kaggle User under the ‘moriano’ as using specific analysis techniques in a VGM dataset; found here: https://www.kaggle.com/moriano/video-games-dataset-exploration. The user utilises python and histogram to analyse his dataset which is considerably larger than the pan for my theme. Therefore, this makes this dataset set an explorative research process. 
+As touched upon earlier, websites such as NintenSheet offer a large corpora of music notational and downloads, and others offer vast collections of MIDI downloads such as VGMusic.com. However, I was only able to identify a Kaggle User under the ‘moriano’ as using specific analysis techniques in a VGM dataset; found here: https://www.kaggle.com/moriano/video-games-dataset-exploration. The user utilises python and histograms to analyse his dataset which is considerably larger than the plan for my theme. Therefore, this makes this datasetan explorative research process. 
