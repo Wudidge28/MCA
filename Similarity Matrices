@@ -21,7 +21,10 @@
     and heat map comparing the genre of tracks.</p>
        
 	  <h3>Similarity Matrices</h3>
-		<p>These similarity matrices are based on the trcks found in The Similarity Matrx folder which includes 3 of my tracks as raw csv. files and demo tracks./p>
+		<p>These images are collated from the raw featres the tracks found in The Similarity Matrx folder which includes 3 of my tracks as raw csv. files and demo tracks./p>
+		
+		<img src="SimilarityMatrix.png" alt="Graph showing similarity between genres">
+		<img src="HeatMap.png" alt="Similarity matrix of A and C notes">
     
     </div>
 
