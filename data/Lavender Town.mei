@@ -2,83 +2,99 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-    <meiHead>
-  <fileDesc>
-           <fileDesc xml:id="lav-fd">
-            <titleStmt xml:id="fd-ts">
-                <title xml:id="t-1">Pokemon Lavander Town Theme </title>
-                <title xml:id="t-2" type="sub-title">
-                    <identifier> Transcription of the Lavender Town Theme from Pokemon Red/Blue/Yellow</identifier>
+<meiHead xml:id="lv-id">
+        <fileDesc xml:id="lv-fd">
+            <titleStmt xml:id="lv-fd-ts">
+                <title xml:id="t-1">Pokemon Lavender Town R/B/Y Theme</title>
+                <title xml:id="t-2" type="subtitle">
+                    <identifier xml:id="t-id">Transcription of the Lavende Town Theme from pokemon Red/Blue/Yellow</identifier>
                 </title>
                 <composer xml:id="c-1">Junichi Masuda</composer>
-                <respStmt>
-                    <resp>Transcribed for Music Analytics Project</resp>
+                <respStmt xml:id="lv-rs">
+                    <resp xml:id="rs-resp">Transcribed for Music Analytics Project</resp>
                     <persName xml:id="resp-1">Gregor Long</persName>
-                    <corpName>University of Glasgow DMIS</corpName>
+                    <corpName xml:id="corpname">University of Glasgow</corpName>
                 </respStmt>
             </titleStmt>
-            <editionStmt>
+            <editionStmt xml:id="lv-es">
                 <edition xml:id="edition">Derivative from MuseScore transcription by Meastro Aamir</edition>
-                <respStmt>
+                <respStmt xml:id="lv-es-rs">
                     <resp xml:id="resp-2">Gregor Long crafting a slightly edited replica of Meastro Aamir's MuseScore Transcription</resp>
-                    <persName>Gregor Long</persName>
+                    <persName xml:id="pers-1">Gregor Long</persName>
                 </respStmt>
             </editionStmt>
             <extent xml:id="extent" unit="kilobytes">19.5</extent>
-            <pubStmt>
-                <publisher>
-                    <corpName>University of Glasgow</corpName>
+            <pubStmt xml:id="lv-ps">
+                <publisher xml:id="publisher">
+                    <corpName xml:id="corp">University of Glasgow</corpName>
                 </publisher>
-                <address>
-                    <addrLine>
-                        <geogName>Glasgow</geogName>
+                <address xml:id="address">
+                    <addrLine xml:id="add-line-1">
+                        <geogName xml:id="geo-1">Glasgow</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>Scotland</geogName>
+                    <addrLine xml:id="add-line-2">
+                        <geogName xml:id="geo-2">Scotland</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>United Kingdom</geogName>
+                    <addrLine xml:id="add-line-3">
+                        <geogName xml:id="geo-3">United Kingdom</geogName>
                     </addrLine>
                 </address>
-                <distributor>Gregor Long</distributor>
-                <availability>
-                    <useRestrict xml:id="restriction" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
+                <distributor xml:id="dist">Gregor Long</distributor>
+                <availability xml:id="availability">
+                    <useRestrict xml:id="userestrict" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
                         Creative Commons Attribution 4.0 International, CC BY-NCSA
                     </useRestrict>
                 </availability>
-                <respStmt>
-                    <resp>Private - available only via GitHub Repository</resp>
-                    <persName xml:id="resp-3">Gregor Long</persName>
-                    <persName xml:id="resp-4">Tim Duguid</persName>
+                <respStmt xml:id="lv-ps-rs">
+                    <resp xml:id="resp-3">Private - available only via GitHub Repositor</resp>
+                    <persName xml:id="resp-4">Gregor Long</persName>
+                    <persName xml:id="resp-5">Tim Duguid</persName>
                 </respStmt>
             </pubStmt>
-            <seriesStmt>
-                <title>Music Analytics Project - Encoded Music of Video Game Music</title>
+            <seriesStmt xml:id="lv-ss">
+                <title xml:id="ss-t">Music Analytics 2018 - Video Game Music Dataset</title>
                 <editor xml:id="e-1">Gregor Long</editor>
-                <contents>
-                    <contentItem>Final Fnantasy VII Victory Fanfare</contentItem>
-                    <contentItem>Pokemon Lavender Town Theme</contentItem>
-                    <contentItem>Nintendo Wii Channel Theme</contentItem>
+                <contents xml:id="ss-contents">
+                    <contentItem xml:id="content-1">Final Fantasy VII Victory Fanfare</contentItem>
+                    <contentItem xml:id="content-2">Pokemon Lavender Town Theme</contentItem>
+                    <contentItem xml:id="content-3">Ninteno Wii Channel Theme</contentItem>
                 </contents>
             </seriesStmt>
-            <notesStmt>
-                <annot>Meastro Aamir transcription was found using the search feature on the MuseScore website</annot>
+            <notesStmt xml:id="lv-ns">
+                <annot xml:id="ns-annot-1">Maestro Aamir transcription was found using the search feature on the MuseScore website</annot>
             </notesStmt>
-            <sourceDesc>
-                <source>
-                    <titleStmt>
-                        <title xml:id="t-3" authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
+            <sourceDesc xml:id="lv-sd">
+                <source xml:id="source">
+                    <titleStmt xml:id="sd-ts">
+                        <title xml:id="t-3"  authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
                             Pokemon Red/Blue/Yellow </title>
-                        <editor xml:id="e-2" authURI="https://musescore.com/thenewmaestro/scores/50012">
+                        <editor xml:id="e-2" e-2" authURI="https://musescore.com/thenewmaestro/scores/50012">
                            Meastro Aamir</editor>
-                        <composer xml:id="c-2"https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
+                        <composer xml:id="c-2" authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
                             Junichi Masuda</composer>
                     </titleStmt>
-                    <pubStmt>
-                        <distributor type=" SheetMusic distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                    <pubStmt xml:id="sd-ps">
+                        <distributor xml:id="dis" type=" SheetMusic distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
                     </pubStmt>
                 </source>
             </sourceDesc>
+        </fileDesc>
+        <encodingDesc xml:id="encodingdesc-0000000566694740">
+            <appInfo xml:id="appinfo-0000001294939845">
+                <application xml:id="application-0000000599461611" isodate="2018-11-22T19:42:14" version="2.0.0-dev-e42e3a6">
+                    <name xml:id="name-0000001594482287">Verovio</name>
+                    <p xml:id="p-0000000449014598">Transcoded from MusicXML</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc xml:id="lv-rd">
+            <change xml:id="change" resp="Gregor Long">
+                <changeDesc xml:id="cd">
+                    <p xml:id="change-cd-p">Amended xml:id</p>
+                </changeDesc>
+                <date xml:id="change-date">4th December 2018</date>
+            </change>
+        </revisionDesc>
     </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000002132693366">
             <appInfo xml:id="appinfo-0000001552486349">
