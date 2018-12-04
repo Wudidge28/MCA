@@ -3,6 +3,7 @@
 Music Analytics Dataset Theme: Video Game Music
 
 My Chosen Dataset topic is Video Game Music. This is a broad dataset choice but in doing so it allows for me to look at tracks for different time periods and of different genre and notational complexity. This is more beneficial in testing my analysis and visualisations as opposed to a dataset composed of tracks from on artist or one milieu i.e. One Film or Videogame. 
+Video Game tracks like the ones I have chosen present a gradual learning curve which allowed for me to learn notation basics while still presenting a variety through the individual challenge of each tracks transcription. Furthermore, I specifically chose tracks using the same instrument as a control measure(piano); this would again aid the learning and transcription process and allow for a more valid comparison while concurrently preventing bias.
 
 Descriptive Data (Metadata): 
 
