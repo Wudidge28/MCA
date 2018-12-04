@@ -9,6 +9,7 @@ Descriptive Data (Metadata):
 Genre: Video-Game, Chiptune, Ambient, Lounge, Downtempo
 Year: 1995-2008
 Titles:
+
 •	Pokemon Red/ Blue/ Yellow (1998, Game Freak)
 
 -	Name: Lavender Town
@@ -20,6 +21,7 @@ Titles:
 -	Composer: Nobuo Uematsu
 
 •	Nintendo Wii Channel (Formally Wii Menu/System Menu) (2007, Nintendo)
+
 -	Name: Wii Channel Theme
 -	Composer: Kazumi Totaka
 
