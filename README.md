@@ -29,7 +29,9 @@ Video Game sheet music is widely available on the world wide web through multipl
 Below are examples of notational resources for my chosen tracks in the dataset:
 
 •	Lavender Town: https://www.ninsheetmusic.org/download/pdf/1532  
+
 •	Victory Fanfare: https://ichigos.com/res/getfile.php?id=1487&type=pdf&token=fc64088b0f734c47f016d7a69cc53333  
+
 •	Wii Channel: https://www.ninsheetmusic.org/download/pdf/1012 
 
 Acoustic Data:
@@ -37,7 +39,9 @@ Acoustic Data:
 Video Game Music is readily available on Youtube; links to acoustic renditions made by fans of each track are below:
 
 •	Lavender Town - https://www.youtube.com/watch?v=tBF_m71vSrY 
+
 •	Victory Fanfare https://www.youtube.com/watch?v=JPBRbIvs5lc 
+
 •	Wii Channel: https://www.youtube.com/watch?v=auj9J2bKbvY 
 
 Current Datasets:
