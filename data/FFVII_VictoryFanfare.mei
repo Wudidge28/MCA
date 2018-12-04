@@ -70,7 +70,7 @@
                             Final Fantasy VII Victory Fanfare</title>
                         <editor xml:id="e-2" authURI="https://musescore.com/user/28262185/scores/5177153">
                            AvgLink</editor>
-                        <composer xml:id="c-2" https://www.discogs.com/Nobuo-Uematsu-Final-Fantasy-VII-Original-Sound-Track/release/1830265" authority="discogs">
+                        <composer xml:id="c-2" authURI="https://www.discogs.com/Nobuo-Uematsu-Final-Fantasy-VII-Original-Sound-Track/release/1830265" authority="discogs">
                             Nobuo Uematsu</composer>
                     </titleStmt>
                     <pubStmt>
