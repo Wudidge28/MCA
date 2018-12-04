@@ -94,30 +94,19 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
-            /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+     /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */
-	                document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='restriction']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id]").textContent + "</p></a>"
 			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='t-3']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='t-3']").textContent + "</p></a>"
 			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='e-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='e-2']").textContent + "</p></a>"
 			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='c-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='c-2']").textContent + "</p></a>"
-			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='a-1']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='a-1']").textContent + "</p></a>"
+			document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='userestrict']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='userestrict']").textContent + "</p></a>"
            /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
             */
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='ffvii-fd']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='fd-ts']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='resp-1']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='resp-2']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='resp-3']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='resp-4']").textContent + "</p>"
-                        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='e-1']").textContent + "</p>"
-		        document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='edition']").textContent + "</p>"        
-			document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='t-1']").textContent + "</p>"
 			document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='t-2']").textContent + "</p>"
-			document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='c-1']").textContent + "</p>"
           }
-          }
+        }
       }
     </script>
   </body>
