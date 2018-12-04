@@ -95,12 +95,7 @@
                 <date xml:id="change-date">4th December 2018</date>
             </change>
         </revisionDesc>
-    </fileDesc>
-        <encodingDesc xml:id="encodingdesc-0000002132693366">
-            <appInfo xml:id="appinfo-0000001552486349">
-                <application xml:id="application-0000000343321090" isodate="2018-11-26T21:35:53" version="2.0.0-dev-e42e3a6">
-                    <name xml:id="name-0000001797744685">Verovio</name>
-                    <p xml:id="p-0000001212389704">Transcoded from MusicXML</p>
+    </meiHead>
                 </application>
             </appInfo>
         </encodingDesc>
