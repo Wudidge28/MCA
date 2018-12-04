@@ -66,9 +66,9 @@
             <sourceDesc xml:id="lv-sd">
                 <source xml:id="source">
                     <titleStmt xml:id="sd-ts">
-                        <title xml:id="t-3"  authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
+                        <title xml:id="t-3" authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
                             Pokemon Red/Blue/Yellow </title>
-                        <editor xml:id="e-2" e-2" authURI="https://musescore.com/thenewmaestro/scores/50012">
+                        <editor xml:id="e-2" authURI="https://musescore.com/thenewmaestro/scores/50012">
                            Meastro Aamir</editor>
                         <composer xml:id="c-2" authURI="https://www.discogs.com/Junichi-Masuda-Pok%C3%A9mon/release/7895339" authority="discogs">
                             Junichi Masuda</composer>
